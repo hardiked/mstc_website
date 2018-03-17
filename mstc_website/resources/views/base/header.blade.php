@@ -40,8 +40,8 @@
         <li><a href="./dreamspark">DREAMSPARK</a></li>
         <li><a href="/ideoson">MS IDEOSON</a></li>
         <li><a href="/gallery">GALLERY</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="/about">ABOUT US</a></li>
+        <li><a href="/contact">CONTACT</a></li>
       </ul>
       
     </div><!-- /.navbar-collapse -->

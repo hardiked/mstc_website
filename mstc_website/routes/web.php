@@ -30,3 +30,16 @@ Route::get('/ideoson', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::post('/sendmail', function (\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer) {
+	$mailer->to($request->input('email'))->send(new \App\Mail\Mail());
+    return redirect()->back();
+})->name('sendmail');
